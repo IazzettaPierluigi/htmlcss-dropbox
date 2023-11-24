@@ -162,7 +162,7 @@ bottom:0px; */
 #container-cards{
     /* height: 1000px; */
     width: 100%;
-    background-color: red;
+    
     display: flex;
     gap: 40px;
 }
@@ -176,7 +176,7 @@ bottom:0px; */
     flex-direction: column;
    
 
-    background-color: blue;
+    
     border: 1px solid lightgray;
 
 }
@@ -215,4 +215,12 @@ bottom:0px; */
     background-color: lightgray;
     border: none;
     height: 1px;
+}
+/* FINE MID-CARD */
+
+.bottom-card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
