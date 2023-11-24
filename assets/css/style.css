@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.button-blue{
+    background-color: #0061FF;
+    padding: 5px;
+    color: white;
+}
+
+
+/* INIZIO HEADER */
+
 header{
     width: 100%;
     min-height: 50px;
@@ -39,16 +48,68 @@ header #right-head .header-span{
     line-height: 50px;
 }
 
-.button-blue{
-    background-color: #0061FF;
+
+header .header-span:hover{
+    border-bottom: 1px solid lightgray;
+}
+
+/* FINE HEADER */
+
+/* SECT-1 CON SFONDO BLU */
+
+#sect-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#b4d0e7 ;
+    
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    width: 60%;
+    margin: auto;
+    
+}
+
+#text-img-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 20px;
+    
+}
+
+#text-sect1{
+   width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+}
+
+figure{
+    position: relative;
+    width: 60%
+}
+
+#text-img-container figure img{
+  width:100% ;
+  height: 100%;
+position: absolute;
+top:0;
+bottom:-30px;
+}
+
+#text-sect1 .button-blue{
+    width: 45%;
     padding: 5px;
-    color: white;
 }
 
-header #left-head .header-span:hover{
-    border-bottom: 1px solid lightgray;
-}
-
-header #right-head .header-span:hover{
-    border-bottom: 1px solid lightgray;
+#text-sect1 a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
