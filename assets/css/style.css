@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    min-height: 50px;
+    /* background-color: red; */
+    padding-inline: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+#right-head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#left-head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header #left-head .header-span{
+    background-color: white;
+    line-height: 50px;
+}
+
+header #right-head .header-span{
+    background-color: white;
+    line-height: 50px;
+}
+
+.button-blue{
+    background-color: #0061FF;
+    padding: 5px;
+    color: white;
+}
+
+header #left-head .header-span:hover{
+    border-bottom: 1px solid lightgray;
+}
+
+header #right-head .header-span:hover{
+    border-bottom: 1px solid lightgray;
+}
