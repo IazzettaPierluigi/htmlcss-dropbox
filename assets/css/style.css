@@ -9,6 +9,7 @@
     background-color: #0061FF;
     padding: 5px;
     color: white;
+    text-align: center;
 }
 
 
@@ -208,6 +209,7 @@ bottom:0px; */
 .card .mid-card .button-blue{
     padding: 10px;
     margin-top: 20px;
+    
 }
 
 .card .mid-card hr{
@@ -223,4 +225,40 @@ bottom:0px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+/* FOOTER SECT 2 */
+
+#footer-sect-2{
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.body-foot-sect2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-foot-sect2 #foot-sect2-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.body-foot-sect2 .button-blue{
+    font-size: 15px;
+    padding: 5px;
+    text-align: cente;
+}
+
+#footer-sect-2 p{
+    padding: 20px;
 }
