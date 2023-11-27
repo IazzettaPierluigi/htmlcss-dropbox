@@ -469,3 +469,74 @@ bottom:0px; */
 #clear{
     background-color: #ffd830;
 }
+
+/* FOOTER SECT 5 */
+
+#footer-sect5{
+    background-color: #b4d0e7;
+    width: 100%;   
+    padding-block: 100px;
+}
+
+#text-footer-sect5{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-sect5 #text-footer-sect5 h2{
+    font-size: 40px;
+    width: 50%;
+}
+
+#footer-sect5 #text-footer-sect5 #button-sect5{
+    align-items: flex-start;
+    padding: 10px;
+    background-color: white;
+    height: 20%;
+}
+
+/* SEZIONE 6 */
+#sect-6{
+    width: 60%;
+    margin: auto;
+    margin-block: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#sect-6 h2{
+    font-size: 40px;
+}
+
+#sect-6 .question span {
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+.question{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.question .fa-chevron-up,
+.question p{
+    display: none;
+}
+
+.question:hover .fa-chevron-up,
+.question:hover p{    
+    display: inline-block;
+}
+
+.question:hover p{
+    margin-top: 20px;
+}
+
+.question:hover .fa-chevron-down{
+    display: none;
+}
