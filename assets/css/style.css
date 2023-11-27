@@ -18,7 +18,7 @@
 header{
     width: 100%;
     min-height: 50px;
-    /* background-color: red; */
+    background-color: white;
     padding-inline: 10px;
 
     display: flex;
@@ -26,6 +26,9 @@ header{
     align-items: center;
 
     font-size: 12px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 #right-head{
@@ -42,12 +45,12 @@ header{
 
 header #left-head .header-span{
     background-color: white;
-    line-height: 50px;
+    line-height: 49px;
 }
 
 header #right-head .header-span{
     background-color: white;
-    line-height: 50px;
+    line-height: 49px;
 }
 
 
@@ -60,14 +63,15 @@ header .header-span:hover{
 /* SECT-1 CON SFONDO BLU */
 
 #sect-1{
-
+    /* height: 800px; */
+    padding-top: 70px;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color:#b4d0e7 ;
 
     align-items: center;
-    padding: 20px;
+    padding-inline: 20px;
 
 }
 
@@ -85,7 +89,7 @@ h1{
 
 
     position: relative;
-    top: 80px;
+    top: 60px;
 }
 
 #text-sect1{
@@ -93,7 +97,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 40px;
-
+    align-items: flex-start;
 
 }
 
@@ -112,7 +116,7 @@ bottom:0px; */
 }
 
 #text-sect1 .button-blue{
-    width: 45%;
+    /* width: 45%; */
     padding: 8px;
 }
 
@@ -251,14 +255,52 @@ bottom:0px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-size: 20px;
 }
 
 .body-foot-sect2 .button-blue{
     font-size: 15px;
-    padding: 5px;
-    text-align: cente;
+    padding: 10px;
+    text-align: center;
 }
 
 #footer-sect-2 p{
     padding: 20px;
+}
+
+/* INIZIO SEZIONE 3 */
+
+#sect-3{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+#sect-3 figure{
+    width: 50%;
+    height: 400px;
+}
+
+#sect-3 figure img{
+    width: 100%;
+    height: 100%;
+}
+
+#sect-3 #right-sect3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    align-items: flex-start;
+
+    font-size: 20px;
+}
+
+#sect-3 #right-sect3 #button-sect3{
+    border: 1px solid black;
+    padding: 10px;
+    
 }
