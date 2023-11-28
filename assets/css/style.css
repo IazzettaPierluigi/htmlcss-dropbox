@@ -192,6 +192,10 @@ bottom:0px; */
     border-bottom: 1px solid lightgray;
     margin-bottom: 20px;
     padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 /* FINE HEADER CARD */
 
@@ -208,6 +212,14 @@ bottom:0px; */
     flex-direction: column;
     padding: 20px;
     gap: 10px;
+}
+
+.top-card :nth-child(2){
+    font-weight: 600;
+}
+
+.top-card :nth-child(3){
+    color: rgba(0, 0, 0, 0.507)
 }
 
 .card .mid-card .button-blue{
@@ -228,7 +240,11 @@ bottom:0px; */
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+}
+
+.bottom-card i{
+    color: blue;
 }
 
 /* FOOTER SECT 2 */
