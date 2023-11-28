@@ -324,7 +324,7 @@ bottom:0px; */
 
     margin: auto;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
@@ -377,7 +377,8 @@ bottom:0px; */
 #container-sect5{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    
+   
 }
 
 
@@ -388,7 +389,7 @@ bottom:0px; */
     flex-wrap: wrap;
 
     width: calc(100% / 3);
-    
+    aspect-ratio: 1;
 
 
     background-color: red;
@@ -419,8 +420,8 @@ bottom:0px; */
     display: flex;
     position: relative;
     width: calc(100% / 2);
-    min-height: 300px;  max-height: 300px;
-
+    /* min-height: 300px;  max-height: 300px; */
+    aspect-ratio: 1;
 }
 
 .box-aside-sect5 .card-box-sect5 svg{
@@ -476,6 +477,7 @@ bottom:0px; */
     background-color: #b4d0e7;
     width: 100%;   
     padding-block: 100px;
+    
 }
 
 #text-footer-sect5{
@@ -539,4 +541,61 @@ bottom:0px; */
 
 .question:hover .fa-chevron-down{
     display: none;
+}
+
+/* SEZIONE 7 (FOOTER) */
+
+footer{
+    background-color: black;
+   
+}
+
+#footer-main{
+    display: flex;
+    justify-content: space-between;
+
+    padding-block: 50px;
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+
+#footer-main .foot-col ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 20px;
+
+    color: white;
+    list-style: none;
+}
+
+#footer-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-block: 60px;
+    width: 60%;
+    margin: auto;
+    color: lightgray;
+    background-color: black;
+  
+}
+
+#footer-bottom hr{
+    width: 10%;
+}
+
+#footer-bottom #text-foot-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    align-items: center;
+}
+
+#text-foot-bottom .fa-chevron-up{
+    font-size: 10px;
 }
